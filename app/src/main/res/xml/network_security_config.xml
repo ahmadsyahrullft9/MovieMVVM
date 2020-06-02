@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!-- network traffic not permitted
+https://stackoverflow.com/questions/45940861/android-8-cleartext-http-traffic-not-permitted-->
+
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">https://api.themoviedb.org</domain>
+        <domain includeSubdomains="true">https://image.tmdb.org</domain>
+    </domain-config>
+</network-security-config>
